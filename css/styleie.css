@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	
+ 
+	font-family: 'Titillium Web', sans-serif;
+	background-color:black	;
+	background-image:url(../Clientes/Archipielago/Images/1.jpg)
+}
+#logoflotante{
+	position:fixed;
+		left:22px;
+	height:85px;
+	padding:0;
+	width:82px;
+	background-image:url(../images/logo.svg);
+	top:0;
+	z-index:1001;
+	
+}
+#aparicion
+{
+	position:fixed;
+	float: left;
+	top:0;
+	left:0;
+	bottom:0;
+	width: 117px;
+	background-color: transparent;
+	z-index:50000;
+	
+}
+#content{
+	float:left;
+	border:1px solid transparent;
+	top:100px;
+	left:284px;
+	position:relative;
+	font-family: 'Titillium Web', sans-serif;
+	color:white;
+	font-size:30px;
+	
+	text-shadow: 0 0 8px black;
+	
+		}
+		
+		#video_background {
+position: absolute;
+top: 0px;
+left: 0px;
+		
+min-width:100%;
+min-height:100%;
+}
