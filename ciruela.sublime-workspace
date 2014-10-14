@@ -1,0 +1,371 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cargarLista",
+				"cargarListaEventos"
+			],
+			[
+				"imagen",
+				"imagen_default"
+			],
+			[
+				"seti",
+				"setTimeout"
+			],
+			[
+				"cl",
+				"cl	console.log()"
+			],
+			[
+				"end",
+				"endDate"
+			],
+			[
+				"ret",
+				"retorno"
+			],
+			[
+				"star",
+				"start_date_array"
+			],
+			[
+				"stat",
+				"startDate"
+			],
+			[
+				"spl",
+				"split"
+			],
+			[
+				"new",
+				"new_date"
+			],
+			[
+				"cargareve",
+				"cargarEvento"
+			],
+			[
+				"console",
+				"console	console.log()"
+			],
+			[
+				"cargarE",
+				"cargarElValle"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"i",
+				"inline-block"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: console.log()"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/albertocastro/Documents/guvap/guvap2/app/www/js/manejadorAcciones.js",
+		"/Users/albertocastro/Library/Application Support/Sublime Text 2/Packages/User/cl.sublime-snippet",
+		"/Users/albertocastro/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/albertocastro/Dropbox/Web/alberto/doc/TOC.md",
+		"/Applications/XAMPP/xamppfiles/etc/httpd.conf"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"$('#loading",
+			"navicon",
+			"elemento.find('span').",
+			"navicon",
+			"lang",
+			"Lang",
+			"NO_U",
+			"No se encuentra su",
+			"NO_UBI",
+			"getVar",
+			"getResta",
+			"getVini",
+			"$(img)",
+			"initFun",
+			"splash",
+			"token",
+			"Token",
+			"TOKEN",
+			"token",
+			"GuvapREST",
+			"guvapRest",
+			"PROD_TOKEN",
+			"DEV_TOKEN",
+			"rest_root",
+			"cargarEvento",
+			"cargarHome",
+			"cargarEvento",
+			"getEvent",
+			"getEventos",
+			"_getEntity",
+			"getEvento",
+			"getEventos",
+			"server",
+			"cargarHome",
+			"cargarEvento",
+			"getHoteles",
+			"getResta",
+			"getVinicola",
+			"\"id\": \"descripcio",
+			"getVini",
+			"cargarVini",
+			"variable",
+			"importarVinicolas",
+			"getVinico",
+			"- ",
+			"MasTardeOff",
+			"navicon",
+			"scrollNavicon",
+			"cargarNavicon",
+			"start",
+			"start_date_array",
+			"0",
+			"t",
+			",\"",
+			",",
+			"loginFacebook",
+			"facebook",
+			"\n",
+			"· ",
+			".",
+			"ad",
+			"# ",
+			"virtual host",
+			"virtualh",
+			"Users",
+			"virtual host"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.735095214844,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"confi",
+				"guvap2/app/config.xml"
+			],
+			[
+				"mai",
+				"guvap2/app/www/js/main.js"
+			],
+			[
+				"sty",
+				"guvap2/app/www/css/style.css"
+			],
+			[
+				"main",
+				"guvap2/app/www/js/main.js"
+			],
+			[
+				"la",
+				"guvap2/app/www/language.json"
+			],
+			[
+				"men",
+				"guvap2/app/www/menus.json"
+			],
+			[
+				"loadloc",
+				"guvap2/app/www/js/loadlocal.js"
+			],
+			[
+				"data",
+				"guvap2/app/www/js/dataManager.js"
+			],
+			[
+				"datama",
+				"guvap2/app/www/js/dataManager.js"
+			],
+			[
+				"getho",
+				"server/getHoteles.php"
+			],
+			[
+				"menus",
+				"guvap2/app/www/menus.json"
+			],
+			[
+				"getvini",
+				"server/getVinicolas.php"
+			],
+			[
+				"loadl",
+				"guvap2/app/www/js/loadlocal.js"
+			],
+			[
+				"new",
+				"js/newActions.js"
+			],
+			[
+				"barra",
+				"js/barraAcciones.js"
+			],
+			[
+				"ma",
+				"js/manejadorAcciones.js"
+			],
+			[
+				"www/logi",
+				"guvap2/app/www/login.html"
+			],
+			[
+				"ty",
+				"css/style.css"
+			],
+			[
+				"t",
+				"doc/TOC.md"
+			],
+			[
+				"in",
+				"index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 241.0,
+	"status_bar_visible": true
+}

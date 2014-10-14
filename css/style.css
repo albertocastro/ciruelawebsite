@@ -438,3 +438,89 @@ span.whiteText {
     z-index: 50;
     padding-right: 3px;
 }
+@media all and (max-width: 1024px) and (min-width: 400px) {
+    
+.imagen span#hiText {
+font-family: 'Titillium Web', sans-serif;
+padding-left: 279px;
+padding-top: 168px;
+width: 61.5%;
+}
+
+.imagen #hiText h2 {
+margin-left: -6px;
+letter-spacing: 10px;
+font-size: 100px;
+font-weight: 200;
+color: yellow;
+}
+.imagen #hiText p {
+font-size: 22px;
+margin-top: -30px;
+font-weight: 200;
+letter-spacing: 1.2px;
+line-height: 1.4;
+}
+.imagen span {
+position: relative;
+display: block;
+font-family: 'Titillium Web', sans-serif;
+font-weight: 100;
+font-size: .95em;
+width: 50%;
+text-align: left;
+padding-left: 267px;
+padding-top: 98px;
+margin-top: 0px;
+}
+#archipielago_span
+{
+    width: 27%;
+}
+#bajarack_span
+{
+    width: 42%;
+    padding-left: 216px;
+}
+#bajavet_span
+{
+    width: 31%;
+
+}
+#cruzroja_span
+{
+    width: 38%
+}
+
+#elemento_span
+{
+    width: 33%;
+}
+
+#ramsar_span
+{
+width: 55%;
+}
+
+#ileana_span
+{
+width: 34%;
+}
+
+#mod_span
+{
+width: 31%;
+}
+
+#proestero_span
+{
+width: 53%;
+}
+
+#TAE_span
+{
+width: 53%;
+padding-left: 12px;
+}
+
+}
