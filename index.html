@@ -23,19 +23,26 @@
     </script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
     </script>
-    <script type="text/javascript" src="js/classie.min.js"></script>
+    <script type="text/javascript" src="js/classie.js"></script>
     <script type="text/javascript" src="js/detectmobilebrowser.js"></script>
     <script type="text/javascript" src="js/modernizr.custom.js"></script>
-    <script type="text/javascript" src="js/hammer.min.js"></script>
-    
-    <script src="js/idangerous.swiper.min.js"></script>
+    <script type="text/javascript" src="js/hammer.js"></script>
+    <script type="text/javascript" src="js/backgroundCheck.js"></script>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="js/idangerous.swiper.js"></script>
 
     <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300,200' rel='stylesheet' type='text/css'>
     <link href="css/idangerous.swiper.css" rel="stylesheet" type="text/css">
     <script>
     var efecto = 1500;
     var paginaAnterior = 'Index';
-
+  
+  $( document ).ready(function() {
+//alert( "ready!" );
+ $('.izq').hide();
+                        $('.der').hide();
+});
+	
     $(function() {
         var clientes = ['Ciruela',
             'Adobe',
@@ -150,7 +157,8 @@
                 if ($(this.hash)) {
                     var paginaNueva = this.hash.slice(1);
 
-                    if (paginaNueva == 'Ciruela') {
+                    if (paginaNueva == 'Ciruela' ) {
+						//alert(paginaNueva + 'Nombre Pag nueva');
                         $('.izq').hide();
                         $('.der').hide();
                     } else {
@@ -199,11 +207,11 @@
     </script>
 </head>
 
-<body  unselectable='on'>
+<body style="overflow:hidden;" unselectable='on'>
 
 
 
-    <a href="#Ciruela" data-page="0">
+    <a href="index.html" >
         <div id="logoflotante"></div>
     </a>
 
@@ -221,7 +229,6 @@
         <a id="linkBajaVet" href="#BajaVet">BajaVet</a>
         <a id="linkCruzRoja" href="#CruzRoja">Cruz Roja</a>
         <a id="linkElemento" href="#Elemento">Elemento</a>
-        <a id="linkElWero" href="#ElWero">Terra Peninsular</a>
         <a id="linkFumanchu" href="#Fumanchu">Fumanchú</a>
         <a id="linkHumedalesRamsar" href="#HumedalesRamsar">Humedales Ramsar</a>
         <a id="linkIleanaBarrientos" href="#IleanaBarrientos">Ileana Barrientos</a>
@@ -229,6 +236,7 @@
         <a id="linkProEsteros" href="#ProEsteros">Pro Esteros</a>
         <a id="linkStoneCo" href="#StoneCo">Stone Co.</a>
         <a id="linkTAE" href="#TAE">TAE</a>
+        <a id="linkElWero" href="#ElWero">Terra Peninsular</a>
         <h4 id="hCiruela">CIRUELA</h4>
         <a href="#Ciruela" id="ciruelaLink" data-page="0">¿Quiénes somos?</a>
         <a href="#Ciruela" id="ciruelaLink" data-page="1">¿Qué hacemos?</a>
@@ -248,6 +256,9 @@
 Video not supported </video>
 -->
     <!-- index -->
+   
+    
+    </div>  
     <div id="Ciruela" class="swipeableDiv opaqueDiv visibleDiv">
         <div id="swiper-container-Ciruela" class="swiper-container">
             <div class="swiper-wrapper">
@@ -367,7 +378,7 @@ Video not supported </video>
                     </div>
                 </div>
             </div>
-            <div class="pagination"></div>
+            <!--<div class="pagination"></div>-->
         </div>
     </div>
     <!-- div index -->
@@ -381,12 +392,12 @@ Video not supported </video>
                 <div class="swiper-slide blue-slide">
                     <div class="imagen" style="background-image:url(Clientes/Adobe/1.jpg) ; ">
                         <span>
-                            <h2>Adobe </h2>
+                            <h2>Adobe</h2>
                             <h5>
-                                Una de las vinícolas de renombre en el Valle de Guadalupe. Además de la calidad de sus vinos, su singular cocina y la hospitalidad de su hotel boutique, Adobe Guadalupe se ha extendido a la crianza de caballos azteca integrando el arte en todas sus manifestaciones y en una tienda con productos de la región.<br>
-Debido a un desfasamiento en el manejo de su marca, nuestro intervención consistió en re-interpretar la esencia de Adobe Guadalupe creando una imagen simple y elegante aplicada en sus materiales impresos.<br><br>
+                                Gracias a la calidad de sus vinos, singular cocina y hotel boutique, Adobe Guadalupe es uno de los destinos con mayor reconocimiento en el Valle de Guadalupe.<br><br>
+Debido a un desfasamiento en su imagen de marca, nuestra intervención consistió en re-interpretar la esencia de Adobe Guadalupe dando como resultado una imagen sobria y cálida aplicada en papelería y materiales promocionales.<br><br>
 
-El proyecto se extendió a la re-ingeniería de la página web, misma que no se había actualizado en diez años. En este caso se planteó una experiencia de navegación simple, amigable y funcional que permitiera al usuario navegar con facilidad, al tiempo que se le presentara el contenido en forma clara, concisa y visualmente muy atractiva.
+El proyecto se extendió a la re-ingeniería de la página web, misma que no se había actualizado en diez años. Se planteó una experiencia de navegación simple, amigable y funcional que permitiera al usuario navegar con facilidad, al tiempo que se le presentara el contenido en forma clara, concisa y atractiva.
                                
 
                             </h5>
@@ -395,6 +406,11 @@ El proyecto se extendió a la re-ingeniería de la página web, misma que no se 
                 </div>
                 <div class="swiper-slide blue-slide">
                     <div class="imagen" style="background-image:url(Clientes/Adobe/2.jpg);"></div>
+                </div>
+                <div class="swiper-slide fader-div swiper-no-swiping">
+                    <div class="imagen fadeable-item visibleDiv fadeable-top" style="background-image:url(Clientes/Adobe/3.jpg); z-index: 1; "></div>
+                    <div class="imagen fadeable-item" style="background-image:url(Clientes/Adobe/4.jpg); z-index: 2;"></div>
+                    <div class="imagen fadeable-item" style="background-image:url(Clientes/Adobe/5.jpg); z-index: 3;"></div>
                 </div>
             </div>
             <div class="pagination"></div>
@@ -411,12 +427,12 @@ El proyecto se extendió a la re-ingeniería de la página web, misma que no se 
 
                 <div class="swiper-slide blue-slide">
                     <div class="imagen" style="background-image:url(Clientes/Archipielago/1.jpg) ; ">
-                        <span id="archipielago_span" class="blackText">
+                        <span class="blackText">
                             <h2>Archipiélago</h2>
-                            <h5 >
-                                Instalada en Barcelona España, Archipiélago es una productora editorial especializada en temas para empresas familiares. La operación de esta empresa está basada en la colaboración a distancia, por ello el concepto de Archipiélago.
-                                <br>La imagen comprende el diseño de un logotipo simple en contarste con una colorida serie de ilustraciones empleada en la papelería, brouchure y página web.
-
+                            <h5>
+                                Ubicada en Barcelona, España, Archipiélago es una empresa del ramo editorial que opera en colaboración en distintas partes del mundo.<br><br>
+                                El proyecto consistió en la creación del concepto de marca reflejado en su nombre: Archipiélago. El concepto visual del logotipo hace énfasis en la tilde como elemento distintivo. Para la papelería y brouchure se realizaron ilustraciones que presentan la narrativa propositiva y creativa que la organización ejerce.<br><br>
+                                La página web, por otro lado, fue un proyecto extenso que partió desde la planeación estratégica hasta el cuidadoso diseño de cada sección; logrando así, que pese a la complejidad de la estructura, se mantuviese la simplicidad para hacer sencilla la navegación.
                             </h5>
                         </span>
                     </div>
@@ -446,11 +462,14 @@ El proyecto se extendió a la re-ingeniería de la página web, misma que no se 
             <div class="swiper-wrapper">
                 <div class="swiper-slide red-slide">
                     <div class="imagen" style="background-image:url(Clientes/BajaRack/1.jpg) ; ">
-                        <span id="bajarack_span" class="blackText">
+                        <span class="blackText">
                             <h2>BajaRack</h2>
-                            <h5 >
-                                BajaRack es un fabricante de canastillas para vehículos SUV. En corto tiempo a logrado exportar una larga gama de productos a los cuatro continentes.
-                                <br />Taller Ciruela a colaborado desde un inicio con el desarrollo de la identidad de marca, materiales promocionales y el sitio web, así como en la planeación y desarrollo de nuevos productos.
+                            <h5>
+                                BajaRack es una empresa local que produce accesorios para vehículos todo terreno. En corto tiempo ha logrado exportar una extensa línea de productos a los cuatro continentes.
+                                <br><br> 
+                                Taller Ciruela ha colaborado desde su inicio con el desarrollo de su identidad de marca y desarrollo de campañas promocionales para medios impresos y digitales.<br><br>
+                                Desde un inicio, se planteó la idea de presentar a BajaRack como un embajador de la Baja California como destino de aventura; por ello, su comunicación hace alusión a paisajes y lugares de la “Baja” ubicados con coordinadas GPS tal y como el buen aventurero conoce.<br><br>
+                                El sitio web integra un sistema e-commerce con servicio de envío a otras partes del mundo, conversión de moneda, inventarios y demás; todo con una interface práctica que transmite la emoción de vivir la aventura en Baja California.
                             </h5>
                         </span>
                     </div>
@@ -484,10 +503,14 @@ El proyecto se extendió a la re-ingeniería de la página web, misma que no se 
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="imagen" style="background-image:url(Clientes/BajaVet/1.jpg) ; ">
-                        <span id="bajavet_span" class="blackText">
+                        <span class="blackText">
                             <h2>BajaVet</h2>
                             <h5>
-                                Anteriormente su nombre fue Distribuidora Baja empresa distribuidora de productos veterinarios. Al verse confundida entre otras empresas con el mismo nombre se propuso cambiar a BajaVet además de rediseñar su imagen de acuerdo a la nueva filosofía de empresa enfocada en la excelencia de sus productos y servicios.
+                                Conocida desde hace más de 15 años como Distribuidora Baja, la renombrada BajaVet es una distribuidora de productos veterinarios para animales domésticos y de granja.<br><br> 
+
+                                Ante la confusión que se generaba entre su antiguo nombre y el de otras empresas con nombre similar, se planteó un nuevo nombre contrayendo las palabras del nombre anterior: BajaVet.<br><br>
+
+                                La  nueva identidad gráfica de BajaVet se apega a la filosofía renovada de la empresa. El símbolo representa un caballo, un perro o un borrego al tiempo que forma la letra B de Baja. Las aplicaciones presentan imágenes de animales aportando un sentido de apego por la salud y bienestar de los animales.
                             </h5>
                         </span>
                     </div>
@@ -517,10 +540,12 @@ El proyecto se extendió a la re-ingeniería de la página web, misma que no se 
             <div class="swiper-wrapper">
                 <div class="swiper-slide red-slide">
                     <div class="imagen" style="background-image:url(Clientes/CruzRoja/1.jpg) ; ">
-                        <span  id="cruzroja_span" class="blackText">
-                            <h2>CruzRoja</h2>
+                        <span class="blackText">
+                            <h2>Cruz Roja</h2>
                             <h5>
-                                Cruz Roja Delegación Ensenada se ha ditinguido como una de las delegaciones mejor equipadas y organizadas del País. Hemos tenido la fortuna de colaborar con Cruz Roja Ensenada por varios años realizando la imagen de su 50 aniversario, campañas de comunicación, manuales de prevensión así como el desarrollo de su página web.
+                                Cruz Roja Delegación Ensenada se ha distinguido como una de las delegaciones mejor organizadas y equipadas del país. Hemos tenido la fortuna de colaborar con Cruz Roja Ensenada por varios años realizando estrategias para promover la noble labor de esta organización. <br><br>
+
+                                Dentro de los proyectos realizados, diseñamos la imagen del 50 aniversario de la Delegación de Ensenada, creamos campañas de comunicación institucional, un manual de prevención y el desarrollo de su página web.
                             </h5>
                         </span>
                     </div>
@@ -558,10 +583,12 @@ El proyecto se extendió a la re-ingeniería de la página web, misma que no se 
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="imagen" style="background-image:url(Clientes/Elemento/1.jpg) ; ">
-                        <span id="elemento_span" class="blackText">
+                        <span class="blackText">
                             <h2>Elemento</h2>
                             <h5>
-                                Es una marca de conservas de mar/cielo/tierra. Se caracteriza por la simpleza de sus ingredientes y singular sabor. La imagen rescata la esencia de las etiquetas hechas en casa donde queda fuera la pretención comercial y opta por la calidad de los productos hechos a baja escala.
+                                La misión de Elemento es ofrecer productos de cielo, mar y tierra de excelente calidad, poniendo atención en el detalle de su presentación. Sus productos se caracterizan por la simpleza de sus ingredientes y singular sabor.<br><br>
+
+                                Los monogramas de Elemento fueron inspirados en las cajas de madera usadas como empaques al tiempo que forman la letra de un elemento correspondiente: M de mar, T de Tierra y A de aire. El diseño de las etiquetas opta por la calidad de los productos caseros hechos a baja escala.
                             </h5>
                         </span>
                     </div>
@@ -593,7 +620,12 @@ El proyecto se extendió a la re-ingeniería de la página web, misma que no se 
                 <div class="swiper-slide blue-slide">
                     <div class="imagen" style="background-image:url(Clientes/ElWero/1.jpg) ; ">
                         <span class="blackText">
-                            
+                            <h2>Terra Peninsular</h2>
+                            <h5>
+                                Es una organización dedicada a la conservación de áreas donde habitan especies en peligro de extinción.<br><br> 
+
+                                Taller Ciruela, fue invitado a colaborar en la organización de una exposición fotográfica con fines recaudatorios. Desde un inicio, se planteó la realización de un evento diferente basado en la personalidad del Güero, pescador de oficio y autor de las fotografías exhibidas. Se pensó en un evento donde el montaje, el ambigú, la música y el ambiente fuera creado en torno a la vida del peculiar “pescador de imágenes”.
+                            </h5>
                         </span>
                     </div>
                 </div>
@@ -623,7 +655,8 @@ El proyecto se extendió a la re-ingeniería de la página web, misma que no se 
                         <span class="blackText">
                             <h2>Fumanchu</h2>
                             <h5>
-                                Fumanchú es una pequeña tienda de skateboards que se a aventurado a crear su propia línea de productos. Nos hemos divertido haciendo el diseño de tablas de skate, accesorios y camisetas bajo el concepto del famoso villano de las películas tipo B.
+                                Fumanchu es una tienda local dedicada a la venta equipo y accesorios para skateboards. La cual, en 2010 se aventuró a crear su propia marca de productos Fumanchu.
+                                El proyecto consistió en el desarrollo de una línea para skateboards, diseño de accesorios y camisetas basados en referencias de lugares locales como fábricas abandonadas, grúas industriales, entre otras.
                             </h5>
                         </span>
                     </div>
@@ -653,11 +686,12 @@ El proyecto se extendió a la re-ingeniería de la página web, misma que no se 
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="imagen" style="background-image:url(Clientes/HumedalesRamsar/1.jpg) ; ">
-                        <span id="ramsar_span">
+                        <span>
                             <h2>Humedales Ramsar</h2>
-                            <h5 >
-                                La convención Ramsar es una certificación internacional para declarar zonas de conservación a humedales naturales. Una de las condiciones para la certificación es el trazo de senderos interpretativos con el fin de informar a la comunidad de la importancia de conservar estas zonas.
-                                <br>Se trabajó en equipo con Pro-Esteros para definir los contenidos científicos de la información. El proyecto constó del marcaje de puntos de referencia, elaboración de guión de cada sendero, diseño e instalación de los letreros. Además se creo un catálogo de ilustraciones de flora y fauna con el fin de de usarse en los letreros en lugar de las tradicionales fotografías.
+                            <h5>
+                                La convención Ramsar es una certificación internacional para declarar zonas de conservación a humedales naturales. Una de las condiciones para la certificación, es el trazo de senderos interpretativos con el fin de informar a la comunidad de la importancia de conservar estas áreas.<br><br>
+
+                                Trabajando en conjunto con Pro-Esteros, se definió el contenido científico, marcaje de puntos de referencia, elaboración de guión de los senderos, y el diseño e instalación de los letreros. Además, creamos un catálogo de ilustraciones de flora y fauna con el fin de emplearse en lugar de fotografías; y finalmente, se diseñaron los manuales de manejo de los humedales.
                             </h5>
                         </span>
                     </div>
@@ -684,11 +718,12 @@ El proyecto se extendió a la re-ingeniería de la página web, misma que no se 
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="imagen" style="background-image:url(Clientes/IleanaBarrientos/1.jpg) ; ">
-                        <span id="ileana_span" class="blackText">
+                        <span class="blackText">
                             <h2>Ileana Barrientos</h2>
-                            <h5 >
-                                La danzaterapia es una alternativa de terapia psicológica llevada al movimiento corporal. Su instructora define esta modalidad como una forma de conectarse con uno mismo liberando por medio del movimiento situaciones internas.
-                                <br>La imagen carece de un logotipo formal mas bien la consistencia y el contraste de color es suficiente para lograr su reconocimiento. La imagen estilizada de un cuerpo en movimiento evoca la sensación de libertad que se encuentra con la danzaterapia.
+                            <h5>
+                                La danzaterapia es una alternativa de terapia psicológica llevada al movimiento corporal. Su instructora define esta modalidad como una forma de conectarse con uno mismo liberando por medio del movimiento situaciones internas.<br><br>
+
+                                La imagen carece de un logotipo formal; en su defecto, la consistencia y el contraste de color, fueron suficientes para lograr su identificación. Así mismo, la imagen estilizada de un cuerpo en movimiento, evoca la sensación de libertad que se encuentra con la danzaterapia.
                             </h5>
                         </span>
                     </div>
@@ -718,11 +753,14 @@ El proyecto se extendió a la re-ingeniería de la página web, misma que no se 
             <div class="swiper-wrapper">
                 <div class="swiper-slide red-slide">
                     <div class="imagen" style="background-image:url(Clientes/Mod/1.jpg) ; ">
-                        <span id="mod_span">
+                        <span>
                             <h2>Mod Casa Integral</h2>
-                            <h5 >
-                                Mod es una tienda especializada en la venta de cocinas y closets contemporáneos que apuesta por el buen diseño, manufactura y consultoría a sus clientes.
-                                <br>El proyecto consistió en el desarrolló del concepto de marca reflejado en su nombre el cual debía ser sofisticado, moderno y distintivo.
+                            <h5>
+                                Mod es una tienda especializada en la venta de cocinas y closets contemporáneos que apuesta por el buen diseño, manufactura y consultoría a sus clientes. El proyecto consistió en el desarrollo del concepto de marca reflejado en su nombre; el cual, debía ser sofisticado, distintivo y moderno.<br><br>
+
+                                Como resultado, Mod remite a conceptos como Modular, Moderno y Moda. Mod es un nombre corto y memorable. Su imagen de marca es la integración estilizada de los tres caracteres que lo componen; formando así, un logotipo simple y sofisticado.<br><br>
+
+                                El proyecto integral incluyó el diseño de la fachada de la tienda y recepción, así como la papelería corporativa, brouchure de producto, materiales de punto de venta y la página web.
                             </h5>
                         </span>
                     </div>
@@ -758,11 +796,16 @@ El proyecto se extendió a la re-ingeniería de la página web, misma que no se 
             <div class="swiper-wrapper">
                 <div class="swiper-slide red-slide">
                     <div class="imagen" style="background-image:url(Clientes/ProEsteros/1.jpg) ; ">
-                        <span id="proestero_span">
+                        <span>
                             <h2>Pro esteros</h2>
-                            <h5 >
-                                Pro esteros es una organización sin fines de lucro dedicada a la conservación y educación de humedales en esteros. Con motivo de su 25 aniversario, Pro Esteros decidió renovar su imagen que consistió en el re-diseño de su logotipo, papelería y página web.
-                                <br>El objetivo fue crear una imagen de acuerdo a sus principios destacando una imagen austera y sin pretenciones pero al mismo tiempo proyectando la seriedad y congruencia que la han caracterizado.
+                            <h5>
+                                Pro esteros es una organización dedicada a la conservación de humedales en esteros costeros. Con motivo de su 25 aniversario decidió renovar su imagen.<br><br>
+
+                                Dado al reconocimiento de su identidad gráfica, se optó por mantener su elemento central: el rascón; ya que es un ave característica de esta zona. Para ello, se afinaron sus trazos, se trabajó en una nueva tipografía y en una paleta de color basada en los colores predominantes en un humedal.<br><br>
+
+                                El diseño de la papelería es inspirado en las huellas que dejan las aves en la arena húmeda. Siguiendo los principios de la organización, se optó por utilizar materiales reciclados y de fibras naturales.<br><br>
+
+                                Dadas las necesidades de comunicación se propuso la planeación, estructura, diseño y programación de un nuevo sitio web; dando como resultado un sitio amigable, organizado y una interface gráfica acorde con el segmento de mercado al que está dirigido: los jóvenes.
                             </h5>
                         </span>
                     </div>
@@ -795,11 +838,8 @@ El proyecto se extendió a la re-ingeniería de la página web, misma que no se 
                         <span class="blackText">
                             <h2>Stone Co.</h2>
                             <h5>
-                                StoneCo. (Stone Company) es una empresa especializada en el diseño y fabricación de cubiertas de mármol, cuarzo y granito.<br><br>
-
-El proyecto consistió en el desarrollo del concepto de marca basado en los cristales de cuarzo y granito que forman la piedra. El concepto de marca reflejado en su naming StoneCo denota especialización, experiencia y confianza. Aunque su nombre está americanizado la pronunciación al español StoneCo resulta foneticamente memorable.<br><br>
-
-El símbolo de marca es una S al tiempo que forma una cubierta vista de planta. En las aplicaciones se utilizó la forma del símbolo y textura como elemento de consistencia e indentificativo.
+                                StoneCo., es una empresa especializada en el diseño y fabricación de cubiertas de mármol, cuarzo y granito. El concepto de marca fue reflejado en su nombre: StoneCo., contracción de Stone Company. Aunque el nombre está americanizado, su pronunciación resulta fonéticamente memorable.<br><br>
+                                El símbolo de marca forma una S al tiempo que simula una cubierta. El efecto logrado por los colores representa los cristales de piedra de cuarzo y granito. En aplicaciones se utilizó como textura y elemento distintivo.
                                 
                             </h5>
                         </span>
@@ -828,11 +868,12 @@ El símbolo de marca es una S al tiempo que forma una cubierta vista de planta. 
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="imagen" style="background-image:url(Clientes/TAE/1.jpg) ; ">
-                        <span id="TAE_span" class="whiteText">
+                        <span class="whiteText">
                             <h2>TAE</h2>
-                            <h5 >
-                                El taller de arquitectura emocional –TAE– es un despacho que se distingue por incorporar conceptos “orgánicos” en sus proyectos.
-                                <br>El proyecto partió de un profundo análisis del proceso de trabajo del despacho y en un extenso diálogo con los arquitectos con el objetivo de entender la esencia de su visión profesional.
+                            <h5>
+                                El Taller de Arquitectura Emocional –TAE– es un estudio que se distingue por incorporar conceptos “orgánicos” en sus proyectos arquitectónicos.<br><br>
+                                El proyecto partió de un profundo conocimiento del proceso de trabajo, del estudio, y de un extenso diálogo con los arquitectos con el objetivo de descubrir la esencia de su visión profesional.<br><br>
+                                El proceso de diseño se centró en la búsqueda de una imagen distintiva que representara su proceso de trabajo. Se emplearon los cuadernos de bocetos del estudio para “reutilizarlos” como elementos visuales, tanto en papelería como en su página web.
                             </h5>
                         </span>
                     </div>

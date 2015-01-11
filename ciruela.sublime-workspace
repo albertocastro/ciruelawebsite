@@ -71,20 +71,60 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 49050,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/idangerous.swiper.min.js",
+			"settings":
+			{
+				"buffer_size": 40237,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/hammer.min.js",
+			"settings":
+			{
+				"buffer_size": 11987,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/classie.min.js",
+			"settings":
+			{
+				"buffer_size": 563,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 9440,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 287.0,
 		"selected_items":
 		[
 			[
-				"Snippet: ",
-				"Snippet: console.log()"
-			],
-			[
 				"Package Control: ",
 				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: console.log()"
 			]
 		],
 		"width": 467.0
@@ -126,6 +166,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"adobe",
+			"_text",
+			"{",
+			"%;",
+			"Span",
+			"Esteros",
+			"Span",
 			"$('#loading",
 			"navicon",
 			"elemento.find('span').",
@@ -209,13 +256,143 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 49050,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16836,
+								16836
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 7880.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/idangerous.swiper.min.js",
+					"settings":
+					{
+						"buffer_size": 40237,
+						"regions":
+						{
+						},
+						"selection":
+						[
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/hammer.min.js",
+					"settings":
+					{
+						"buffer_size": 11987,
+						"regions":
+						{
+						},
+						"selection":
+						[
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 2.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/classie.min.js",
+					"settings":
+					{
+						"buffer_size": 563,
+						"regions":
+						{
+						},
+						"selection":
+						[
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		},
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 4,
+					"file": "css/style.css",
+					"settings":
+					{
+						"buffer_size": 9440,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1180,
+								1141
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 774.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -247,7 +424,7 @@
 		"cols":
 		[
 			0.0,
-			0.735095214844,
+			0.524733355325,
 			1.0
 		],
 		"rows":
@@ -268,6 +445,22 @@
 		"selected_items":
 		[
 			[
+				"clas",
+				"js/classie.js"
+			],
+			[
+				"hamm",
+				"js/hammer.js"
+			],
+			[
+				"idan",
+				"js/idangerous.swiper.js"
+			],
+			[
+				"sty",
+				"css/style.css"
+			],
+			[
 				"inde",
 				"index.html"
 			],
@@ -278,10 +471,6 @@
 			[
 				"mai",
 				"guvap2/app/www/js/main.js"
-			],
-			[
-				"sty",
-				"guvap2/app/www/css/style.css"
 			],
 			[
 				"main",

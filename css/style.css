@@ -69,8 +69,8 @@ body {
 }
 .imagen span#hiText {
     font-family: 'Titillium Web', sans-serif;
-    padding-left: 405px;
-    padding-top: 200px;
+    padding-left: 370px;
+    padding-top: 142px;
     width: 61.5%;
 }
 .imagen #hiText h2 {
@@ -81,7 +81,7 @@ body {
     color: yellow;
 }
 .imagen #hiText p {
-    font-size: 36px;
+    font-size: 30px;
     margin-top: -22px;
     font-weight: 200;
     letter-spacing: 1.2px;
@@ -90,8 +90,8 @@ body {
 div#purposeDiv {
     padding-top: 1px;
     padding-left: 295px;
-    width: 84.65%;
-    height: 57.6%;
+    width: 100%;
+    height: 50%;
     background-image: url(../Ciruela/que_hacemos.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -102,19 +102,19 @@ span#purposeText h2 {
     font-size: 1.2em;
 }
 span#purposeText {
-    padding-top: 194px;
+    padding-top: 100px;
     padding-left: 0px;
-    width: 70%;
+    width: 72%;
 }
 span#purposeText p {
-    font-size: 2.1em;
+    font-size: 2em;
     margin-top: -24px;
     line-height: 1.5;
 }
 span#subPurposeText {
     padding-top: 2.05%;
-    padding-left: 297px;
-    width: 65%;
+    padding-left: 230px;
+    width: 75%;
     font-size: 1.22em;
     font-weight: 200;
     letter-spacing: .55px;
@@ -157,19 +157,19 @@ span#subPurposeText {
     font-size: 1em;
 }
 .purposeList:nth-child(1) {
-    margin-left: 286px;
+    margin-left: 210px;
 }
 .purposeList:nth-child(2) {
-    margin-left: 130px;
+    margin-left: 70px;
 }
 .purposeList:nth-child(3) {
-    margin-left: 112px;
+    margin-left: 60px;
 }
 .purposeList:nth-child(4) {
-    margin-left: 85px;
+    margin-left: 65px;
 }
 .purposeList:nth-child(5) {
-    margin-left: 88px;
+    margin-left: 90px;
 }
 span#contactoText {
     padding-top: 110px;
@@ -229,7 +229,7 @@ div#contactHours {
 div#contactHours .infoContent {
     font-size: 18px;
     padding-top: 0px;
-    line-height: 1.8;
+    line-height: 1.4;
 }
 .imagen span h2 {
     font-family: 'Titillium Web', sans-serif;
@@ -261,7 +261,7 @@ div#contactHours .infoContent {
     font-size: 1.05em;
     width: 35.7%;
     text-align: left;
-    padding-left: 267px;
+    padding-left: 220px;
     padding-top: 142px;
     margin-top: 0px;
 	
@@ -271,7 +271,7 @@ div#contactHours .infoContent {
     line-height: 1.77;
     margin-top: -42px;
 	font-family: 'Titillium Web', sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 1.05em;
 }
 
@@ -282,13 +282,13 @@ div#contactHours .infoContent {
 }
 
 #TAE .imagen span {
-    padding-top: 120px;
-	margin-left: 200px;
+    padding-top: 42px;
+	margin-left: 232px;
 }
 
 
 #StoneCo .imagen span {
-    padding-top: 120px;
+    padding-top: 100px;
 }
 
 
@@ -396,18 +396,18 @@ span.whiteText {
     width: 85px;
     height: 85px;
     margin-left: 25px;
-    margin-top: 5px;
+    margin-top: 0px;
     -webkit-transition: 0.8s ease-in-out;
     -moz-transition: 0.8s ease-in-out;
     -o-transition: 0.8s ease-in-out;
     transition: 0.8s ease-in-out
 }
 #navicon.on {
-    -webkit-transform: translate(-25px, 0px);
-    -moz-transform: translate(-25px, 0px);
-    -o-transform: translate(-25px, 0px);
-    -ms-transform: translate(-25px, 0px);
-    transform: translate(-25px, 0px)
+    -webkit-transform: translate(0px, 0px);
+    -moz-transform: translate(0px, 0px);
+    -o-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    transform: translate(0px, 0px)
 }
 #hProyectos {
     margin-top: 143px;
@@ -420,7 +420,7 @@ span.whiteText {
     position: absolute;
     width: 50%;
     margin-left: 50%;
-    bottom: 20px;
+    bottom: 45px;
     height: 100%;
     vertical-align: bottom;
     text-align: left;
@@ -431,7 +431,7 @@ span.whiteText {
     position: absolute;
     width: 50%;
     margin-left: 0px;
-    bottom: 20px;
+    bottom: 45px;
     height: 100%;
     vertical-align: bottom;
     text-align: right;
@@ -443,7 +443,7 @@ span.whiteText {
 .imagen span#hiText {
 font-family: 'Titillium Web', sans-serif;
 padding-left: 279px;
-padding-top: 168px;
+padding-top: 142px;
 width: 61.5%;
 }
 
@@ -467,9 +467,9 @@ display: block;
 font-family: 'Titillium Web', sans-serif;
 font-weight: 100;
 font-size: .95em;
-width: 50%;
+width: 39%;
 text-align: left;
-padding-left: 267px;
+padding-left: 220px;
 padding-top: 98px;
 margin-top: 0px;
 }
@@ -519,8 +519,68 @@ width: 53%;
 
 #TAE_span
 {
-width: 53%;
+width: 46%;
 padding-left: 12px;
+}
+div#purposeDiv {
+padding-top: 1px;
+padding-left: 295px;
+width: 72%;
+height: 30%;
+background-image:url(../Ciruela/que_hacemos.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+span#purposeText {
+padding-top: 52px;
+margin-left: -330px;
+width: 100%;
+padding-left: 267px;
+}
+
+span#subPurposeText{
+padding-top: 4%;
+padding-left: 234px;
+width: 75%;
+font-size: 1.15em;
+font-weight: 200;
+letter-spacing: .55px;
+}
+
+
+
+span#purposeText p {
+font-size: 1.8em;
+margin-top: -24px;
+line-height: 1.4;
+}
+
+
+span#subPurposeText{
+padding-top: 3%;
+padding-left: 235px;
+width: 75%;
+font-size: 1.22em;
+font-weight: 200;
+letter-spacing: .55px;
+}
+
+.purposeList:nth-child(1) {
+margin-left: 215px;
+}
+
+
+.purposeList:nth-child(2) {
+margin-left: 132px;
+}
+
+
+.purposeList:nth-child(3) {
+margin-left: 125px;
+}
+.purposeList:nth-child(4) {
+margin-left: 214px;
 }
 
 }
