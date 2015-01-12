@@ -584,3 +584,19 @@ margin-left: 214px;
 }
 
 }
+
+#loader {
+position: absolute;
+top: 40px;
+right: 20px;
+font-size: 60px;
+color: rgba(255, 255, 255, 0.55);
+text-align: right;
+z-index: 2;
+font-weight: 100;
+}
+#loading{
+display: inherit;
+font-size: 24px;
+margin-top: -13px;
+}

@@ -208,7 +208,10 @@
 </head>
 
 <body style="overflow:hidden;" unselectable='on'>
-
+    
+    <div id="loader"><span id="number">0</span><span> %</span>
+    <span id="loading">cargando</span>
+    </div>
 
 
     <a href="index.html" >
@@ -907,7 +910,57 @@ El proyecto se extendió a la re-ingeniería de la página web, misma que no se 
     </div>
 
 </body>
-<script type="text/javascript">
+<script type="text/javascript" >
+$(function(){
+
+  
+    var progress=0;
+    var config=[
+    {
+        time_interval:2000,
+        random_interval:7
+    },
+    {
+        time_interval:500,
+        random_interval:10
+    }];
+
+   
+    if(localStorage.getItem("cache")==null)
+    {
+       
+        localStorage.setItem("cache",true);
+        config = config[0]
+    }
+    else
+    {
+       config=config[1]
+    }
+  
+    var interval = setInterval(function(){
+        
+        setTimer(progress);
+        progress = progress+getRandom(1,config.random_interval)
+        if(progress>=100)
+        {
+            
+            clearInterval(interval);
+            setTimer(100);
+            setTimeout(function(){$("#loader").fadeOut()},1000)
+        }
+    },config.time_interval)
+
+    function setTimer(time)
+    {
+        $("#loader #number").html(time);
+        
+    }
+    function getRandom(min,max)
+    {
+       return Math.floor((Math.random() * max) + min);
+    }
+
+});
 </script>
 
 <script src="js/classie.js"></script>
